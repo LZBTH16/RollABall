@@ -978,7 +978,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679266908}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1011,6 +1011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRigidBody: {fileID: 1679266913}
   ballSpeed: 2
+  jumpForce: 10
 --- !u!114 &1679266915
 MonoBehaviour:
   m_ObjectHideFlags: 0
